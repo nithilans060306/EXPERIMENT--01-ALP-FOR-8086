@@ -87,7 +87,7 @@ Add AL,BL;
 HLT;
 ```
 ## Output  
-![emu8086_add](https://github.com/user-attachments/assets/ba44c952-3a73-493b-b785-f80594a13569)
+![image](https://github.com/user-attachments/assets/d924f0fb-186b-4049-bd33-bcce605ec3d2)
 
 ## Subtraction   of 8 bit numbers  ALP 
  ```
@@ -103,17 +103,18 @@ HLT;
 ```
 mov AL,53H;
 mov BL,24H;
-mul AL,BL;
+mul BL;
 HLT;
 ```
  ## Output  
-![emu8086_mul](https://github.com/user-attachments/assets/6ab50953-3d06-427c-a186-849fd575c28e)
+![image](https://github.com/user-attachments/assets/0ee8e610-a44d-42b8-9662-1ae93a5f33d5)
+
 
 ## Division alp 
 ```
 mov AL,53H;
 mov BL,24H;
-Div AL,BL;
+Div BL;
 HLT;
 ```
 ## Output  
@@ -158,7 +159,8 @@ XOR AL,BL;
 HLT;
 ```
 ## OUTPUT:
-![emu8086_xor](https://github.com/user-attachments/assets/53815422-bd5b-4f35-9048-e4e3b3c807db)
+![image](https://github.com/user-attachments/assets/e2d681f8-f149-4c70-a42e-d77277306f34)
+
 
 ## Result :
 Thus the program for arithmetic operations and logical operations are complete
